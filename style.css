@@ -1,0 +1,20 @@
+.mx_EventTile_body:not(.markdown-body), .mx_EventTile_body.markdown-body > p {
+  background-color: bubble_color;
+  padding: 8px 8px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: -4px;
+  margin-top: 3px;
+  word-break: break-word;
+}
+.mx_EventTile_body.markdown-body > * {
+  margin-bottom: 3px !important;
+  margin-top: 3px !important;
+}
+.mx_EventTile_pre_container > pre {
+  margin-bottom: 0px !important;
+}
+.mx_EventTile_line, .mx_EventTile_reply {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
